@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("img/pexels-karolina-grabowska-4397840.jpg");
+        font-family: 'Pattaya', sans-serif;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 22px;
+        
+    }
+
+    .left img {
+        width: 100px;
+        height: 60px;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 22px auto;
+        
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        display: inline-block;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: green;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        color: red;
+    }
+
+    .left h6 {
+        text-align: center;
+        line-height: 16px;
+        font-size: 16px;
+    }
+
+    .bts {
+        font-family: 'Pattaya', sans-serif;
+        margin: 0px 5px;
+        color: grey;
+        padding: 4px 14px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .bts:hover {
+        color: red;
+    }
+
+    .container {
+        border: 5px solid green;
+        margin-top: 112px;
+        margin-left: 178px;
+        padding: 57px 238px;
+        border-radius: 24px;
+        text-align: center;
+        display: inline-block;
+        font-family: 'Pattaya', sans-serif;
+    }
+
+    .form_group {
+        font-size: 26px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        width: 176px;
+        padding: 6px 4px;
+        font-family: 'Pattaya', sans-serif;
+    }
+    .form_group input{
+        font-family: 'Pattaya', sans-serif;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/143396909-gym-logo.jpg" alt="error">
+            <h6>Aman Fitness</h6>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="bts">Call Us</button>
+            <button class="bts">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join our gym.</h1>
+        <form action="aman.php"></form>
+        <div class="form_group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+
+        <div class="form_group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+
+        <div class="form_group">
+            <input type="text" name="" placeholder="Enter your email">
+        </div>
+
+        <div class="form_group">
+            <input type="text" name="" placeholder="Enter your location">
+        </div>
+        <button class="bts">Submit</button>
+    </div>
+</body>
+
+</html>
